@@ -1,0 +1,40 @@
+<%-include("partials/header");-%>
+
+<%-include("partials/navbar");-%>
+
+<section id="popular-bookshelf">
+  <h1 class="text-title"><%=title%> </h1>
+  <div class="container">
+    <div class="row">
+      <% foundBooks.forEach(function(book) { %>
+
+      <div class="col-lg-3 col-sm-6 ">
+        <div class="card box-shadow m-2">
+          <img class="book-img" src="data:image/<%=book.coverimg.contentType%>;base64,<%=book.coverimg.data.toString('base64')%>" class="card-img-top" alt="img">
+          <div class="card-body">
+            <h5 class="card-title"><%=book.name%></h5>
+            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            <a target="_blank" href="<%=book.wikiLink%>"><button type="button" class="btn btn-outline-dark">VIEW WIKI</button></a>
+            <form action="/" method="post">
+              <button type="submit" name="book" value="<%=book.id%>" class="btn btn-lg btn-outline-dark">Add to myshelf</button></a>
+            </form>
+            <a href="data:file/<%=book.file.contentType%>;base64,<%=book.file.data.toString('base64')%>" download><button class="btn btn-lg btn-outline-dark">Download</button></a>
+            <!-- <form action="/view-book" method="post">
+                <a target="_blank"><button value="<%=book.id%>" name="download" type="submit" class="btn btn-lg btn-outline-dark">Download</button></a>
+            </form> -->
+          </div>
+        </div>
+      </div>
+
+
+      <%})%>
+
+    </div>
+  </div>
+
+
+</section>
+
+
+
+<%-include("partials/footer");-%>

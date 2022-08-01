@@ -1,0 +1,237 @@
+@media (max-width:805px) {
+  body{
+    text-align: center;
+  }
+  /* #book-of-the-day{
+    text-align: center;
+  } */
+}
+h5{
+  color: black;
+}
+.jumbotron{
+  color: white;
+}
+/* hr{
+  border-style: dotted;
+  border-width: 10px;
+  width: 10%;
+  height: 0;
+  color: grey;
+} */
+/* .container h1{
+  color: white;
+} */
+.google-btn{
+  font-size: 1.3rem;
+  color: white;
+}
+.card{
+  font-size: 1.3rem;
+  background-color: transparent;
+}
+.container{
+  color: white;
+  /* margin: 0; */
+  /* margin: 2% 5%; */
+  /* padding: 12% 15%; */
+}
+.book-img{
+  border: 10px solid #fff;
+}
+.center-align{
+  text-align: center;
+}
+.left-align{
+  text-align: left;
+}
+body{
+  font-family: 'Anek Latin', sans-serif;
+}
+.text-title{
+    font-family: 'EB Garamond', serif;
+}
+#title{
+  /* background-color: #1A3C40; */
+  color: black;
+  /* background-image: url("/images/bookshelf-title.jpg"); */
+}
+/*
+#title .container-fluid{
+  padding: 3% 15% 7%;
+} */
+.btn{
+  margin: 2px 0;
+}
+.landing-page-img{
+  max-width: 50%;
+}
+.nav-item{
+  padding: 0 20px;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding: 2% 5%;
+}
+#header{
+  margin-top: 2%;
+}
+.make-bold{
+  font-weight: bold;
+}
+h1{
+  padding: 3% 5%;
+  line-height: 1.7;
+  font-size: 3rem;
+}
+h6{
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+
+.download-button{
+  margin: 5% 3% 5%;
+}
+
+/* SEARCH SECTION */
+
+#search-section{
+  padding: 0 15%;
+}
+
+/* MINI CATALOG */
+#mini-catalog{
+  margin-bottom: 3%;
+}
+#mini-catalog .card-body{
+  text-align: center;
+  color: white;
+  /* font-size: .5rem; */
+  margin-top: 10px;
+}
+#mini-catalog .card:hover{
+  transition: transform .3s;
+  transform: scale(1.1);
+
+}
+
+
+/* POPULAR BOOKSHELF */
+
+#popular-bookshelf{
+  text-align: center;
+  padding: 0 12%;
+  /* background-color: #757575; */
+}
+.box-shadow{
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+}
+
+/* BOOK OF THE WEEK */
+
+#book-of-the-week{
+  /* text-align: center; */
+  padding: 0 15%;
+  margin-bottom: 5%;
+}
+.botd-description{
+  margin: 3% 0;
+  color :#8f8f9f;
+  line-height: 2;
+}
+
+
+/* NEW BOOKSHELF */
+
+#new-bookshelf{
+  text-align: center;
+  padding: 3% 12%;
+
+}
+
+/* FEATURES */
+
+#features{
+  padding: 3% 8%;
+}
+.feature-item{
+  text-align: center;
+}
+.feature-icon-bookmark{
+  color:  #b2ce58;
+  margin-bottom: 20px;
+}
+
+.feature-icon-book{
+  color: #78d8c0;
+  margin-bottom: 20px;
+}
+
+.feature-icon-author{
+  color: #f37176;
+  margin-bottom: 20px;
+}
+.feature-h3{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.feature-p{
+  color: #8f8f9f;
+}
+
+/* browse collection */
+#browse-collection{
+  text-align: center;
+}
+.bookshelf-bg-img{
+  background-image: url("/images/bookshelf.jpg");
+  height: 800px;
+  object-fit: fill;
+  /* object-fit:scale-down; */
+}
+.browse-col-bg-img{
+  background-image: url("/images/browse-collection-img.jpg");
+  height: 400px;
+  object-fit:scale-down;
+  /* object-fit: contain; */
+}
+#browse-collection h2{
+  padding-top: 150px;
+color: white;
+}
+#browse-collection .btn-outline-light{
+  border:none;
+}
+
+
+/* FOOTER */
+#footer{
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  padding: 3% 7%;
+  background-color: #2e2b2c;
+  text-align: center;
+}
+
+.footer-icon{
+  color: white;
+  padding: 20px;
+}
+
+/* Landing page */
+
+.centered {
+    /* padding-top: 200px; */
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}

@@ -1,0 +1,49 @@
+<%-include("partials/header")-%>
+
+<h1>Upload Books </h1>
+    <hr>
+    <div class="centered">
+        <form action="/upload-book" method="POST" enctype="multipart/form-data">
+            <div>
+                <label for="name">Book Title</label>
+                <input type="text" id="name" placeholder="Name"
+                       value="" name="name" required>
+            </div>
+            <div>
+                <label for="name">Author</label>
+                <input type="text" id="author" placeholder="Author"
+                       value="" name="author" >
+            </div>
+            <div>
+                <label for="name">wikipedia Link</label>
+                <input type="text" id="wikilink" placeholder="wiki link"
+                       value="" name="wikiLink">
+            </div>
+            <div>
+                <label for="name">Category</label>
+                <input type="text" id="category" placeholder="category"
+                       value="" name="category" required>
+            </div>
+            <div>
+                <label for="image">Upload Image</label>
+                <input type="file" id="image"
+                       name="coverimg" value="" required>
+            </div>
+            <div>
+                <label for="image">Upload File</label>
+                <input type="file" id="image"
+                       name="file" value="" required>
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        <a href="/"><button type="button" name="goHome">Back to home page</button></a>
+    </div>
+
+    <hr>
+
+</body>
+
+</html>

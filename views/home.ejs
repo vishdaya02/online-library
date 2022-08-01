@@ -1,0 +1,220 @@
+<%-include("partials/header")-%>
+  <!-- TITLE -->
+
+  <section id="title">
+    <div class="container-fluid">
+      <!-- NAVBAR -->
+      <%-include("partials/navbar")-%>
+      <!-- header -->
+      <!-- <section id="header">
+        <div class="row">
+
+          <div class="col-lg-6">
+            <h1> <strong>The more that you learn, the more places you'll go.</strong></h1>
+            <button type="button" class="btn  btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
+            <button type="button" class="btn  btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+          </div>
+
+        </div>
+      </section> -->
+
+
+    </div>
+
+  </section>
+
+
+  <!-- search section -->
+
+  <section id="search-section">
+    <div class="row">
+      <form class="" action="/store/displayBook" method="post">
+        <div class="input-group mt-5 mb-5">
+          <input name="bookName" type="text" class="form-control" placeholder="Search book by Title" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+        </div>
+      </form>
+
+    </div>
+
+  </section>
+
+<!-- MINI CATALOG  -->
+
+<section id="mini-catalog">
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-4 ">
+      <a href="/store/travel">
+        <div class="card box-shadow m-2" >
+            <img class="image" src="images\travel-img.jpg" class="card-img-top" alt="...">
+            <div class="card-body card-img-overlay ">
+              <h2 class="card-title">Travel Books</h2>
+
+            </div>
+          </div>
+      </a>
+      </div>
+
+      <div class="col-md-4 ">
+<a href="/store/study">
+  <div class="card box-shadow m-2" >
+    <img class="image" src="images\study-img.jpg" class="card-img-top" alt="...">
+    <div class="card-body card-img-overlay">
+      <h2 class="card-title">Study Books</h2>
+    </div>
+  </div>
+
+</a>
+
+      </div>
+
+      <div class="col-md-4 ">
+  <a href="/store/cooking">
+    <div class="card box-shadow m-2" >
+      <img class="image" src="images\cooking-img.jpg" class="card-img-top" alt="...">
+      <div class="card-body card-img-overlay">
+        <h2 class="card-title">Cooking Books</h2>
+      </div>
+    </div>
+
+  </a>
+
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<hr>
+  <!-- BOOK OF THE DAY -->
+
+  <section id="book-of-the-week">
+    <div class="row">
+      <h1 class="text-title center-align">BOOK OF THE WEEK</h1>
+      <div class="col-md-6">
+        <h2>The Complete Idiots Guide to Graphic Design</h2>
+        <p>-Anggi Krisna</p>
+        <h6 class="botd-description">From advanced selectors to generated content to web fonts, and from gradients, shadows, and rounded corners to elegant animations, CSS3 hold a universe of creative possibilities. No one can better guide you
+          through these galaxies than Dan Cederholm.</h6>
+        <button type="button" class="btn btn-outline-dark download-button">Get this book</button>
+
+      </div>
+
+      <div class="col-md-6">
+        <img src="images/complete-idiots-guide-book.jpg" alt="">
+      </div>
+
+    </div>
+  </section>
+
+<hr>
+  <!-- popular books -->
+  <section id="popular-bookshelf">
+    <h1 class="text-title">POPULAR BOOKS</h1>
+    <div class="container">
+      <div class="row">
+
+
+        <div class="col-lg-3 col-sm-6 ">
+          <div class="card box-shadow m-2">
+            <img class="book-img" src="images/humansofny.jpg" class="card-img-top" alt="img">
+            <div class="card-body">
+              <h5 class="card-title">Humans of New York</h5>
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+              <a href="https://en.wikipedia.org/wiki/Humans_of_New_York"><button type="button" class="btn btn-outline-dark download-button">VIEW WIKI</button></a>
+                <button type="button" class="btn btn-lg btn-outline-dark">Download</button>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 ">
+          <div class="card box-shadow m-2">
+            <img class="book-img" src="images/the-secret.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">The Secret</h5>
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+              <a href="https://en.wikipedia.org/wiki/The_Secret_(Byrne_book)"><button type="button" class="btn btn-outline-dark download-button">VIEW WIKI</button></a>
+              <button type="button" class="btn btn-lg btn-outline-dark">Download</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 ">
+          <div class="card box-shadow m-2">
+            <img class="book-img" src="images/trace.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">The Trace</h5>
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+              <a href="https://en.wikipedia.org/wiki/Trace_(novel)"><button type="button" class="btn btn-outline-dark download-button">VIEW WIKI</button></a>
+                <button type="button" class="btn btn-lg btn-outline-dark">Download</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 ">
+          <div class="card box-shadow m-2">
+            <img class="book-img" src="images/wealthofnations.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Wealth of The Nations</h5>
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+              <a href="https://en.wikipedia.org/wiki/The_Wealth_of_Nations#:~:text=The%20Wealth%20of%20Nations%20was%20the%20product%20of%20seventeen%20years,some%20ten%20years%20to%20produce."><button type="button" class="btn btn-outline-dark download-button">VIEW WIKI</button></a>
+              <button type="button" class="btn btn-lg btn-outline-dark">Download</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <!-- BROWSE COLLECTION -->
+
+  <section id="browse-collection">
+    <div class="browse-col-bg-img">
+      <h2>Browse complete Library!</h2>
+      <a href="/store"><button type="button" class="btn  btn-outline-light btn-lg">View Store <i class="fa-solid fa-arrow-right-long"></i> </button></a>
+    </div>
+
+  </section>
+  <!-- FEATURES -->
+
+  <section id="features">
+    <div class="row feature-row">
+
+      <div class="feature-item col-md-4">
+        <i class="fa-solid fa-pencil fa-3x feature-icon-author"></i>
+        <h3 class="feature-h3">Hundereds of Authors.</h3>
+        <p class="feature-p"> To elegant animations. , CSS3 holds a universe of creative possibilities. No one can better guide you through.</p>
+      </div>
+
+      <div class="feature-item col-md-4">
+        <i class="fa-solid fa-book-open fa-3x feature-icon-book"></i>
+        <h3 class="feature-h3">Thousands of books.</h3>
+        <p class="feature-p">From advanced selectors to generated content to web fonts, and from gradients, shadows, and rounded corners. to elegant animations.</p>
+      </div>
+
+      <div class="feature-item col-md-4">
+        <i class="fa-solid fa-bookmark fa-3x feature-icon-bookmark"></i>
+        <h3 class="feature-h3">Easily Bookmarked</h3>
+        <p class="feature-p">Shadows, and rounded corners. to elegant animations. , CSS3 holds a universe of creative possibilities. No one can better guide you through.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Footer -->
+
+
+<%-include("partials/footer");-%>
